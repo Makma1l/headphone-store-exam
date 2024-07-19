@@ -1,0 +1,174 @@
+
+.productContent{
+    
+    display: flex;
+    flex-direction: column;
+   
+    
+}
+
+.product-path{
+    border-top: 2px solid #E9E7E7;
+    padding-top: 98px;
+    margin-bottom: 42px;
+    p{
+        margin-left: 175px;
+    }
+        p {
+            font-family: Readex Pro;
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 25px;
+            text-align: left;
+    
+            span {
+                font-family: Readex Pro;
+                font-size: 20px;
+                font-weight: 500;
+                line-height: 25px;
+                text-align: left;
+            }
+        }
+}
+.product-content{
+    display: flex;
+    h2{
+    font-family: Hammersmith One;
+        font-size: 48px;
+        font-weight: 400;
+        line-height: 60px;
+        text-align: left;
+        margin-bottom: 16px;
+}
+
+    p{
+        font-family: Readex Pro;
+            font-size: 18px;
+            font-weight: 500;
+            line-height: 22.5px;
+            text-align: left;
+            margin-bottom: 18px;
+    }
+    
+        
+        
+    
+}
+.productTxt{
+    .star {
+        color: #454444;
+        .stars{
+            margin-right: 5px;
+            color: #FFC700;
+        }
+        
+        }
+
+        .price-container{
+            border-top: #6A6969 dashed;
+            border-bottom: #6A6969 dashed;
+            padding-bottom: 15px;
+            strong{
+                display: block;
+                margin: 0;
+                margin-bottom: 12px;
+                margin-top: 15px;
+            }
+            span{
+                
+                font-family: Readex Pro;
+                    font-size: 16px;
+                    font-weight: 500;
+                    line-height: 22.5px;
+                    text-align: left;
+            }
+        }
+}
+
+.prdctImg{
+    width: 717.85px;
+    height: 699px;
+    margin-left: 175px;
+    margin-right: 38px;
+        
+}
+.color-container{
+    margin-top: 30px;
+    border-bottom: #6A6969 dashed;
+    margin-bottom: 45px;
+    p{
+        font-family: Readex Pro;
+            font-size: 24px;
+            font-weight: 600;
+            line-height: 30px;
+            text-align: left;
+    }
+}
+.color-circle {
+    display: flex;
+    gap: 0.3em;
+    margin-top: 21px;
+    margin-bottom: 26px;
+
+    .color {
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        border: 1px solid;
+    }
+}
+.quantity{
+    display: flex;
+    align-items: center;
+    span{
+        color: #0BA42D;
+    }
+}
+.counter{
+    display: flex;
+    align-items: center;
+    margin-right: 62px;
+    width: 193px;
+    height: 70px;
+    background-color: #F5F5F5;
+    color: #0D2612;
+    border: 3px solid #0BA42D;
+    border-radius: 40px;
+    h1{
+        font-family: Inter;
+            font-size: 26px;
+            font-weight: 600;
+            line-height: 31.47px;
+            text-align: left;
+    }
+    button{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: transparent;
+        color: #0D2612;
+        margin-bottom: 25px;
+        
+    }
+}
+
+.cart{
+    width: 442px;
+        height: 59px;
+}
+
+.buttons-container{
+    display: flex;
+    align-items: center;
+    .heart{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding:17px ;
+        border: 2px solid ;
+        border-radius: 10px;
+        margin-top: 20px;
+        margin-left: 20px;
+        
+    }
+}

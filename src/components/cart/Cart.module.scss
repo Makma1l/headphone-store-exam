@@ -1,0 +1,224 @@
+.cart {
+    border-top: 2px solid #E9E7E7;
+    padding-top: 75px;
+    padding-left: 143px;
+    display: flex;
+    a {
+        font-family: Readex Pro;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 22.5px;
+        text-align: left;
+    }
+
+    h2 {
+        font-family: Hammersmith One;
+        font-size: 32px;
+        font-weight: 400;
+        line-height: 40px;
+        text-align: left;
+        margin-bottom: 57px;
+        margin-top: 52px;
+    }
+
+    img {
+        width: 155px;
+        height: 155px;
+    }
+
+    .cartMain {
+        width: 832px;
+    }
+
+    .cartInfo {
+        display: flex;
+        border-top: #6A6969 dashed;
+        border-bottom: #6A6969 dashed;
+        padding: 12px 0;
+
+        p {
+            font-family: Hammersmith One;
+            font-size: 22px;
+            font-weight: 400;
+            line-height: 27.5px;
+            text-align: left;
+            margin-bottom: 0;
+
+            &:first-child {
+                margin-right: 390px;
+            }
+
+            &:last-child {
+                margin-left: 150px;
+            }
+        }
+    }
+
+    .counter {
+        display: flex;
+        align-items: center;
+        width: 163px;
+        height: 70px;
+        background-color: #F5F5F5;
+        color: #0D2612;
+        
+        border-radius: 40px;
+        margin-left: 20px;
+        margin-right: 50px;
+        h1 {
+            font-family: Inter;
+            font-size: 26px;
+            font-weight: 600;
+            line-height: 31.47px;
+            text-align: left;
+        }
+
+        button {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: transparent;
+            color: #0D2612;
+            margin-bottom: 25px;
+            border: none;
+            font-size: 24px;
+            cursor: pointer;
+
+            &:focus {
+                outline: none;
+            }
+        }
+    }
+
+    .productCart {
+        display: flex;
+        margin-top: 35px;
+        align-items: center;
+        padding-bottom: 35px;
+        border-bottom: #6A6969 dashed;
+        .producCartTxt {
+            width: 260px;
+        }
+
+        img {
+            display: inline-block;
+        }
+
+        p {
+            display: block;
+            font-family: Hammersmith One;
+                font-size: 20px;
+                font-weight: 400;
+                line-height: 25px;
+                text-align: left;
+        }
+
+        span {
+            display: block;
+            font-family: Readex Pro;
+                font-size: 18px;
+                font-weight: 300;
+                line-height: 22.5px;
+                text-align: left;
+        }
+        strong{
+            font-family: Readex Pro;
+                font-size: 24px;
+                font-weight: 700;
+                line-height: 30px;
+                text-align: left;
+                margin-left: 40px;
+        }
+        h5{
+            font-family: Readex Pro;
+                font-size: 16px;
+                font-weight: 300;
+                line-height: 20px;
+                text-align: left;
+                margin-top: 35px;
+                margin-bottom: 7px;
+        }
+        h4{
+            font-family: Readex Pro;
+                font-size: 16px;
+                font-weight: 300;
+                line-height: 20px;
+                text-align: left;
+                color: #0BA42D;
+        }
+    }
+
+    .cartSum {
+        margin-top: 20px;
+        font-size: 24px;
+        font-weight: bold;
+        margin-top: 180px;
+        margin-left: 27px;
+        padding-left: 31px;
+        border-left: 2px solid #E9E7E7;
+        width: 430px;
+        align-items: center;
+        .cartTitle{
+            border-bottom: #6A6969 dashed;
+        }
+        h3{
+            margin-top: 41px;
+            padding-top: 33px;
+            border-top: #6A6969 dashed;
+            font-family: Readex Pro;
+                font-size: 18px;
+                font-weight: 500;
+                line-height: 22.5px;
+                text-align: left;
+                
+        }
+        h4{
+            font-family: Hammersmith One;
+                font-size: 32px;
+                font-weight: 400;
+                line-height: 40px;
+                text-align: left;
+                
+        }
+        .free{
+            margin-left: 100px;
+        }
+        .subtotal{
+            margin-left: 250px;
+            
+        }
+        p{
+            
+            
+            margin-top: 37px;
+            font-family: Readex Pro;
+                font-size: 18px;
+                font-weight: 300;
+                line-height: 22.5px;
+                text-align: left;
+        }
+        strong{
+            margin-left: 265px;
+        }
+        button{
+            margin-top: 68px;
+            width: 400px;
+        }
+        span{
+            
+            font-family: Readex Pro;
+                font-size: 18px;
+                font-weight: 500;
+                line-height: 22.5px;
+                text-align: left;
+                justify-content: end;
+                
+        }
+        .link{
+            display: flex;
+            margin-top: 46px;
+            margin-left: 110px;
+            align-items: center;
+        }
+    }
+}

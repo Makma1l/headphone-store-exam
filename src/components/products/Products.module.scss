@@ -1,0 +1,123 @@
+.container {
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  margin-left: 143px;
+}
+
+aside {
+  padding: 1rem;
+  margin-right: 55px;
+}
+
+aside div {
+  border-top: 1px dashed #454444CC;
+}
+
+ul {
+  margin-bottom: 4rem;
+}
+
+ul li {
+  margin-bottom: 0.5em;
+}
+
+ul label {
+  margin-left: 0.8em;
+  cursor: pointer;
+}
+
+h3 {
+  margin-top: 27px;
+  margin-bottom: 0.4em;
+  font-family: Hammersmith One;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: left;
+}
+
+.colorsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 11px;
+}
+
+.colorsContainer .color {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  border: 1px solid;
+  cursor: pointer;
+  outline-offset: 0.1em;
+}
+input{
+  color: #0BA42D;
+}
+input:checked {
+  background-color: black;
+}
+
+.grid {
+  display: grid;
+  gap: 30px;
+  
+}
+
+@media (min-width: 768px) {
+  .grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 767px) {
+  .grid {
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  }
+}
+
+.grid>* {
+  box-shadow: 1px 1px 9px 1px rgb(175, 175, 175);
+  border: none;
+  box-sizing: border-box;
+  
+  width: 300px;
+  height: 600px;
+}
+
+.sortByPrice {
+  display: flex;
+  align-items: center;
+  margin-bottom: 67px;
+  height: 85px;
+  background-color: #D5F8CF;
+  color: #0BA42D;
+  font-family: Hammersmith One;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: center;
+}
+
+.sortByPrice p {
+  margin-left: 143px;
+  margin-right: 1385px;
+  margin-top: 10px;
+}
+
+.sortByPrice select {
+  color: #0BA42D;
+  direction: rtl;
+  background-color: transparent;
+  border: none;
+  font-family: Hammersmith One;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: center;
+  width: 160px;
+}
+
+.cards {
+  padding: 1rem;
+}
+
